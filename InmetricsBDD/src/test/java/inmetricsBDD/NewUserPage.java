@@ -9,7 +9,7 @@ public class NewUserPage extends NewUserElementMap{
 	}
 	
 	public void fillinfields() {		
-		Usuario.sendKeys("fakeuser1");
+		Usuario.sendKeys("fakeuser2");
 		Senha.sendKeys("fakepassword");
 		VerSenha.sendKeys("fakepassword");
 	}
